@@ -1,5 +1,6 @@
-package domain;
+package entity;
 
+import enumerator.Provider;
 import jakarta.persistence.*;
 
 import java.time.LocalDateTime;

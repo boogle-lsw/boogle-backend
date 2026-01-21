@@ -1,4 +1,4 @@
-package domain;
+package entity;
 
 import jakarta.persistence.*;
 
@@ -51,6 +51,9 @@ public class Review {
 
     @Column(nullable = false)
     private Integer noiseScore;
+
+    @Column(nullable = false)
+    private Boolean useYn;
 
     // 시간
 

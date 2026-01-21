@@ -1,4 +1,4 @@
-package domain;
+package enumerator;
 
 public enum Provider {
     KAKAO,

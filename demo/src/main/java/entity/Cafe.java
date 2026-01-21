@@ -1,4 +1,4 @@
-package domain;
+package entity;
 
 import jakarta.persistence.*;
 
@@ -33,5 +33,8 @@ public class Cafe {
 
     @Column(length = 20)
     private String contact;
+
+    @Column(nullable = false)
+    private Boolean useYn;
 }
 
